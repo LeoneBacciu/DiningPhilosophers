@@ -46,7 +46,7 @@ public class DiningTable {
                     sb.append("⬤");
                     break;
                 default:
-                    sb.append("○");
+                    sb.append("◯");
             }
         }
         sb.append(forks[0].grabbed() ? "▮" : "▯");
