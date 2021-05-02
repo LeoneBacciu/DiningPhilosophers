@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/stark/IdeaProjects/Scuola2020/TPSIT/philosophers/src</OriginalElement>
+  <nodes>
+    <node x="-232.02941176470586" y="315.88235294117646">Fork</node>
+    <node x="39.5" y="247.0">Philosopher</node>
+    <node x="386.633484162896" y="316.5">DiningTable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DiningTable" target="Fork" relationship="TO_MANY">
+      <point x="78.0" y="-110.0" />
+      <point x="490.633484162896" y="316.5" />
+      <point x="490.633484162896" y="142.84615384615384" />
+      <point x="-198.02941176470588" y="142.84615384615384" />
+      <point x="-198.02941176470588" y="419.37867647058823" />
+      <point x="-84.27941176470586" y="419.37867647058823" />
+      <point x="49.25" y="98.5" />
+    </edge>
+    <edge source="DiningTable" target="Philosopher" relationship="TO_MANY">
+      <point x="26.0" y="-110.0" />
+      <point x="516.633484162896" y="513.0" />
+      <point x="421.32045543970094" y="513.0" />
+      <point x="421.32045543970094" y="632.0" />
+      <point x="235.25" y="632.0" />
+      <point x="65.25" y="179.5" />
+    </edge>
+    <edge source="Philosopher" target="Fork" relationship="TO_ONE">
+      <point x="65.25" y="-179.5" />
+      <point x="235.25" y="174.1544117647058" />
+      <point x="-142.67615089514067" y="174.1544117647058" />
+      <point x="-142.67615089514067" y="415.1026583710407" />
+      <point x="-84.27941176470586" y="415.1026583710407" />
+      <point x="49.25" y="98.5" />
+    </edge>
+    <edge source="Philosopher" target="Fork" relationship="DEPENDENCY">
+      <point x="-65.25" y="-179.5" />
+      <point x="104.75" y="208.99999999999994" />
+      <point x="-55.02941176470583" y="208.99999999999994" />
+      <point x="-55.02941176470583" y="424.4776583710407" />
+      <point x="-182.77941176470586" y="424.4776583710407" />
+      <point x="-49.25" y="98.5" />
+    </edge>
+    <edge source="DiningTable" target="Fork" relationship="CREATE">
+      <point x="-78.0" y="-110.0" />
+      <point x="412.633484162896" y="525.0" />
+      <point x="552.633484162896" y="525.0" />
+      <point x="552.633484162896" y="698.5882352941175" />
+      <point x="-182.77941176470586" y="698.5882352941175" />
+      <point x="-49.25" y="98.5" />
+    </edge>
+    <edge source="DiningTable" target="Philosopher" relationship="CREATE">
+      <point x="-26.0" y="-110.0" />
+      <point x="464.633484162896" y="490.0" />
+      <point x="490.633484162896" y="490.0" />
+      <point x="490.633484162896" y="664.8461538461538" />
+      <point x="104.75" y="664.8461538461538" />
+      <point x="-65.25" y="179.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9999999999999998" showDependencies="true" x="306.8130287231951" y="469.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
